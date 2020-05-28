@@ -6,6 +6,7 @@ Work in progress
 
 ```bash
 npm install -g elm
+npm install
 ```
 
 ## Live compiler
