@@ -1,3 +1,5 @@
+@import './atoms/colors';
+
 .grid-container {
     max-width: 900px;
     margin: auto;
@@ -11,6 +13,7 @@
 }
 
 .cell {
+    padding-top: 1em;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -30,10 +33,22 @@ button {
     }
 }
 
-.success {
-    background-color: green;
+.color-1 {
+    background: $color1;
 }
 
-.alert {
-    background-color: red;
+.color-2 {
+    background: $color2;
+}
+
+.color-3 {
+    background: $color3;
+}
+
+.color-4 {
+    background: $color4;
+}
+
+.color-5 {
+    background: $color5;
 }
